@@ -11,6 +11,7 @@ License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
 Source0:	http://tug.ctan.org/get/macros/latex/contrib/multenum.zip
 # Source0-md5:	9d825be0ee818aa5ff76dc9f7f42317c
+BuildRequires:	unzip
 Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
